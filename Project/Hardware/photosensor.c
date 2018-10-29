@@ -1,8 +1,8 @@
 /********************************************************************************
 * @file    photosensor.c
 * @author  DengXY
-* @version V0.1
-* @date    2018.10.16
+* @version V1.1
+* @creatdate    2018.10.16
 * @brief   
 * @note    光电传感器
 *******************************************************************************/
@@ -57,4 +57,14 @@ void Reset_Sensor_State_Bit(uint8_t n){
  */
 uint8_t Get_Sensor_State(void){
     return sensor_state;
+}
+/**
+ * @brief  获取传感器状态第n未状态标志(0表白底,1表黑底)
+ * @code
+ *      //获取传感器状态标志第0位状态
+ *      state=Get_Sensor_State_Bit(0);
+ * @param  n: 传感器标志位     
+ */
+uint8_t Get_Sensor_State_Bit(uint8_t n){
+    return (sensor_state|(1<<n)>>)>>n;
 }

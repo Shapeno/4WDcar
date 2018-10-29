@@ -1,0 +1,17 @@
+"E:\Program Files\IAR For ARM\arm\bin\armproc.dll" 
+
+"E:\Program Files\IAR For ARM\arm\bin\armjlink2.dll" 
+
+"C:\Users\Mr.Deng\Documents\GitHub\4WDcar\Project\Debug\Exe\K60project.out" 
+
+--plugin="E:\Program Files\IAR For ARM\arm\bin\armbat.dll" 
+
+--device_macro="E:\Program Files\IAR For ARM\arm\config\debugger\NXP\Kxx.dmac" 
+
+--device_macro="E:\Program Files\IAR For ARM\arm\config\debugger\NXP\Kxx_Trace.dmac" 
+
+--flash_loader="E:\Program Files\IAR For ARM\arm\config\flashloader\NXP\FlashK60Dxxx128K.board" 
+
+
+
+

@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"E:\Program Files\IAR For ARM\common\bin\cspybat" -f "F:\飞思卡尔智能车\K60Project\Project\settings\K60project.Debug.general.xcl" --backend -f "F:\飞思卡尔智能车\K60Project\Project\settings\K60project.Debug.driver.xcl" 
+"E:\Program Files\IAR For ARM\common\bin\cspybat" -f "C:\Users\Mr.Deng\Documents\GitHub\4WDcar\Project\settings\K60project.Debug.general.xcl" --backend -f "C:\Users\Mr.Deng\Documents\GitHub\4WDcar\Project\settings\K60project.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"E:\Program Files\IAR For ARM\common\bin\cspybat" -f "F:\飞思卡尔智能车\K60Project\Project\settings\K60project.Debug.general.xcl" "--debug_file=%~1" --backend -f "F:\飞思卡尔智能车\K60Project\Project\settings\K60project.Debug.driver.xcl" 
+"E:\Program Files\IAR For ARM\common\bin\cspybat" -f "C:\Users\Mr.Deng\Documents\GitHub\4WDcar\Project\settings\K60project.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Mr.Deng\Documents\GitHub\4WDcar\Project\settings\K60project.Debug.driver.xcl" 
 
 @echo off 
 :end

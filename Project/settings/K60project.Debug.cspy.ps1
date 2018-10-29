@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "E:\Program Files\IAR For ARM\common\bin\cspybat" -f "F:\飞思卡尔智能车\K60Project\Project\settings\K60project.Debug.general.xcl" --backend -f "F:\飞思卡尔智能车\K60Project\Project\settings\K60project.Debug.driver.xcl" 
+& "E:\Program Files\IAR For ARM\common\bin\cspybat" -f "C:\Users\Mr.Deng\Documents\GitHub\4WDcar\Project\settings\K60project.Debug.general.xcl" --backend -f "C:\Users\Mr.Deng\Documents\GitHub\4WDcar\Project\settings\K60project.Debug.driver.xcl" 
 }
 else
 {
-& "E:\Program Files\IAR For ARM\common\bin\cspybat" -f "F:\飞思卡尔智能车\K60Project\Project\settings\K60project.Debug.general.xcl" --debug_file=$debugfile --backend -f "F:\飞思卡尔智能车\K60Project\Project\settings\K60project.Debug.driver.xcl" 
+& "E:\Program Files\IAR For ARM\common\bin\cspybat" -f "C:\Users\Mr.Deng\Documents\GitHub\4WDcar\Project\settings\K60project.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\Mr.Deng\Documents\GitHub\4WDcar\Project\settings\K60project.Debug.driver.xcl" 
 }
