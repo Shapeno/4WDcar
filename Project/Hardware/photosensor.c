@@ -66,5 +66,5 @@ uint8_t Get_Sensor_State(void){
  * @param  n: 传感器标志位     
  */
 uint8_t Get_Sensor_State_Bit(uint8_t n){
-    return (sensor_state|(1<<n)>>)>>n;
+    return (sensor_state|(1<<n))>>n;
 }
